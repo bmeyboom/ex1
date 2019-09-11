@@ -11,10 +11,6 @@ public class ArrayThreeSum {
      */
     public static boolean check3Sum(int[] input) {
         // TODO: Implement this method
-
-        if (input.length < 3) {
-            return false;
-        }
         int i = 0;
         for (int x : input) {
             for (int j = i; j < input.length; j++) {
